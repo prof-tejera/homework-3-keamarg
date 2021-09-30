@@ -33,7 +33,7 @@ class App extends Component {
         </div>
 
         <div className="App-component">
-          <header className="App-header">Radio Buttons component (TODO)</header>
+          <header className="App-header">Radio Buttons component</header>
           <div className="App-content">
             <RadioButtons />
           </div>

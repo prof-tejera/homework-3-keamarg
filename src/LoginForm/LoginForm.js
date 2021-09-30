@@ -14,16 +14,19 @@ class LoginForm extends Component {
       loggedIn=!loggedIn;
       console.log(`In App, ${text} clicked ${loggedIn}`);
     }
+    const changeHandler = (text) =>{
+      console.log(`In App, ${text} clicked ${loggedIn}`);
+    }
     return (
     <>
       <Panel>
-        <Input id="username" placeholder="username" handleClick={clickHandler}></Input>
+        <Input id="username" placeholder="username" handleChange={changeHandler} handleClick={clickHandler} skinke="dsd"></Input>
         <br/>
-        <Input id="password" placeholder="password" handleClick={clickHandler}></Input>
+        <Input id="password" placeholder="password" type="password" handleChange={changeHandler} handleClick={clickHandler}></Input>
         <br/>
-        <Button text='Login' buttonStyling="Login-button" buttonColor='Green-button' loggedIn={loggedIn} handleClick={clickHandler}> 
+        <Button text='Login' buttonStyling="Login-button" buttonColor='Green-button' loggedIn={loggedIn} handleChange={changeHandler} handleClick={clickHandler}> 
         </Button>
-        <Button text='Logout' buttonStyling="Login-button" buttonColor='Red-button' loggedIn={loggedIn} handleClick={clickHandler}> 
+        <Button text='Logout' buttonStyling="Login-button" buttonColor='Red-button' loggedIn={loggedIn} handleChange={changeHandler} handleClick={clickHandler}> 
         </Button>
         <p>Not registrered? <span>Create an account</span></p>
       </Panel>

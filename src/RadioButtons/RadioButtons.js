@@ -11,11 +11,15 @@ class RadioButtons extends Component {
       console.log(`In App, ${id} clicked`);
     }
 
+    const changeHandler = (id) =>{
+      console.log(`In App, ${id} changed`);
+    }
+
     return (
       <>
         {arr.map((item,i)=>
         <div key={i} className="radio-group">
-          <Input id={item} type="radio" name="radio-buttons" handleClick={clickHandler} />
+          <Input id={item} type="radio" name="radio-buttons" handleClick={clickHandler} handleChange={changeHandler}/>
           <Label htmlFor={item} text={item} />
         </div>
         )}

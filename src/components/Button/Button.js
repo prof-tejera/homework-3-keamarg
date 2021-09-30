@@ -12,7 +12,8 @@ class Button extends Component {
             className={`${buttonStyling} ${buttonColor}`} 
             onMouseOver={()=>(console.log(this.props.text, "button was moused over."))}
             onClick={()=>{console.log(this.props.text, "button was clicked.");
-            handleClick(text)}}>
+            handleClick(text)}}
+            >
             {this.props.text} 
           </button>;
   }
