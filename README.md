@@ -32,7 +32,7 @@ const SomeComponentThatUsesInput = () => {
   </div>
 }
 ```
-6. **Deploy your app using whatever method you want (e.g. Github Pages, AWS, ect) and insert the url here: URL_TO_PROJECT**
+6. **Deploy your app using whatever method you want (e.g. Github Pages, AWS, ect) and insert the url here: URL_TO_PROJECT***
 
 ## Bonus
 - Pager: If you have hardcoded a pager that works 1 to 10, then how might we modify it to be a bit more generic? What props can I pass in that will make the component more configurable?
