@@ -1,6 +1,7 @@
 {
   "name": "react-intro-components",
   "version": "1.0.0",
+  "homepage": "https://prof-tejera.github.io/homework-3-keamarg/",
   "private": false,
   "dependencies": {
     "react": "^17.0.1",

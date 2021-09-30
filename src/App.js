@@ -18,22 +18,22 @@ class App extends Component {
           </div>
         </div>
 
-        <div className="App-component">
-          <header className="App-header">Login form component (TODO)</header>
+        <div className="App-component App-login">
+          <header className="App-header">Login form component</header>
           <div className="App-content">
             <LoginForm />
           </div>
         </div>
 
         <div className="App-component">
-          <header className="App-header">Pager component (TODO)</header>
+          <header className="App-header">Pager component</header>
           <div className="App-content">
             <Pager />
           </div>
         </div>
 
         <div className="App-component">
-          <header className="App-header">Radio Buttons component (TODO)</header>
+          <header className="App-header">Radio Buttons component</header>
           <div className="App-content">
             <RadioButtons />
           </div>
