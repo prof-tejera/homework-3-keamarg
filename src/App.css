@@ -16,4 +16,11 @@
   display: flex;
   justify-content: center;
   padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.App-login {
+  background-color: #45c337;
 }

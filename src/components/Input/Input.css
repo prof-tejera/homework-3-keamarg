@@ -1,0 +1,12 @@
+.Default-input {
+  border: none;
+  color: black;
+  padding: 15px 0px 15px 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 94%;
+  background-color: #f2f2f2;
+}

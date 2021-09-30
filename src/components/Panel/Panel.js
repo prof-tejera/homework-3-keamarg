@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Panel extends Component {
   render() {
-    return <div>{this.props.children}</div>;
+    return <div className="mainPanel">{this.props.children}</div>;
   }
 }
 

@@ -1,8 +1,20 @@
 import { Component } from 'react';
+import "./Input.css"
 
 class Input extends Component {
+
   render() {
-    return <input />;
+    const {placeholder, type, name, handleClick,id}=this.props;
+
+    return <input 
+            className="Default-input" 
+            placeholder={placeholder}
+            type={type}
+            name={name}
+            id={id}
+            onClick={()=>{console.log(name, "button was clicked.");
+            handleClick(id)}}
+          />;
   }
 }
 
