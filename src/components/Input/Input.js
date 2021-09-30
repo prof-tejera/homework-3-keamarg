@@ -12,7 +12,7 @@ class Input extends Component {
             type={type}
             name={name}
             id={id}
-            onClick={()=>{console.log(name, "button was clicked.");
+            onClick={()=>{console.log(id, "was clicked.");
             handleClick(id)}}
           />;
   }

@@ -17,9 +17,9 @@ class LoginForm extends Component {
     return (
     <>
       <Panel>
-        <Input placeholder="username"></Input>
+        <Input id="username" placeholder="username" handleClick={clickHandler}></Input>
         <br/>
-        <Input placeholder="password"></Input>
+        <Input id="password" placeholder="password" handleClick={clickHandler}></Input>
         <br/>
         <Button text='Login' buttonStyling="Login-button" buttonColor='Green-button' loggedIn={loggedIn} handleClick={clickHandler}> 
         </Button>
